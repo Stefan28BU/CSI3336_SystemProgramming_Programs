@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Stefan_Xu/Desktop/Stefan/CSI3336/proj7/main.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+dirent.h
+-
+string.h
+-
+sys/stat.h
+-
+

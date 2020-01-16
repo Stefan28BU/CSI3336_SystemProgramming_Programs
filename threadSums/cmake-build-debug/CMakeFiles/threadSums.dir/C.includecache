@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Stefan_Xu/Desktop/Stefan/CSI3336/threadSums/main.c
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+sys/stat.h
+-
+pthread.h
+-
+semaphore.h
+-
+
+/Users/Stefan_Xu/Desktop/Stefan/CSI3336/threadSums/writeBin.c
+stdio.h
+-
+stdlib.h
+-
+
